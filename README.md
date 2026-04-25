@@ -1,1 +1,1 @@
-# Stego-v2
+# Secure Image Steganography System
