@@ -626,7 +626,7 @@ class StegoApp:
         tk.Canvas(sb, bg=ACCENT, height=1, highlightthickness=0).pack(fill="x")
         self._status_lbl = tk.Label(
             sb,
-            text="◈  STEGO v1.03   ·   PBKDF2-SHA256 + AES-256 + LSB Scatter   ·   Ready",
+            text="◈  STEGO v1.04   ·   PBKDF2-SHA256 + AES-256 + LSB Scatter   ·   Ready",
             bg=STATUS_BG, fg=STATUS_FG, font=("Courier New", 10))
         self._status_lbl.pack(pady=3)
 
