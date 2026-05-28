@@ -16,7 +16,7 @@ Fixed issues:
   - Windows 11 native file dialogs (PowerShell WinForms — reliable on all Win10/11 builds)
   - Key copy bug fixed (tk.Text widget, no null-char, no trailing newline)
   - Encryption/decryption runs in background thread — UI stays responsive
-  - All lambda-in-loop closure bugs fixed
+
 Added:
 
   - Native OS notifications (Win32 MessageBox / notify-send / zenity / kdialog)
@@ -62,7 +62,6 @@ Main functionality works properly:
 
 Still refining:
 - embedding algorithm
-- UI cleanup
 - error handling
 - optimization
 - better steganography techniques
