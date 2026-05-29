@@ -653,7 +653,7 @@ class StegoApp:
         self.master.config(menu=mb)
 
     def _show_help(self):
-        messagebox.showinfo("STEGO v1.03 — Help",
+        messagebox.showinfo("STEGO v1.04 — Help",
             "ENCODE:\n"
             "  1. Select a source image (PNG / JPG / BMP).\n"
             "  2. Type your secret message.\n"
@@ -705,7 +705,7 @@ class StegoApp:
 
         tk.Label(card, text="S T E G O", bg=SURFACE, fg=ACCENT,
                  font=("Courier New", 30, "bold")).pack(pady=(18, 2))
-        tk.Label(card, text="STEGANOGRAPHY SUITE  v1.03", bg=SURFACE, fg=MUTED_FG,
+        tk.Label(card, text="STEGANOGRAPHY SUITE  v1.04", bg=SURFACE, fg=MUTED_FG,
                  font=("Courier New", 11)).pack()
         tk.Label(card, text="◆───────────────────◆", bg=SURFACE,
                  fg=PANEL_BD, font=("Courier New", 10)).pack(pady=(18, 8))
