@@ -19,6 +19,7 @@ Fixed issues:
 
 Added:
 
+  - Drag-n-Drop feature for Encode/Decode page
   - Native OS notifications (Win32 MessageBox / notify-send / zenity / kdialog)
   - PBKDF2-HMAC-SHA256 key derivation (100,000 iterations) — token is 16-byte salt
   - True 2-LSB steganography — output image is *almost* same size as input
