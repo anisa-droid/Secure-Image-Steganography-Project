@@ -1,15 +1,15 @@
-# Secure Image Steganography 
+# Stego: A Secure and Adaptive Image Steganography System
 
 The idea:
 - hide secret messages inside images
 - encrypt the message before hiding it
 - recover it later using a decryption key
 
-Still improving it gradually. Current build is around the “April → May update” phase.
+Still improving it gradually. Current build is around the “May → June update” phase.
 
 ---
 
-## Changelog for v1.04 
+## Changelog for v1.05 
 
 Fixed issues:
 
@@ -24,7 +24,7 @@ Added:
   - PBKDF2-HMAC-SHA256 key derivation (100,000 iterations) — token is 16-byte salt
   - True 2-LSB steganography — output image is *almost* same size as input
   - Share button: image → OS share sheet / bluetooth / email / file manager
-  - Share + Save-as-txt for the decryption key token
+  - Save-as-txt for the decryption key token
 
 ---
 ## Current Features
@@ -85,7 +85,7 @@ than perfect steganographic stealth.
 Clone the repo:
 
 ```bash
-git clone https://github.com/anisa-droid/Secure-Image-Steganography-Project.git
+git clone https://github.com/anisa-droid/STEGO.git
 ```
 
 Install dependencies:
@@ -97,7 +97,7 @@ pip install opencv-python cryptography numpy pillow
 Run:
 
 ```bash
-python stego_gui_may_update_1.04.py
+python stego_gui_june_update_1.05.py
 ```
 
 ---
@@ -149,9 +149,9 @@ Original Message
 
 ## Future Plans
 
-- Better image capacity handling
 - Executable build
-- Drag & drop support
-- More secure key management
+- Audio/Video input support
+- Histogram
+- Better Stealth and Detection Focused features
 
 ---
