@@ -136,13 +136,15 @@ Original Message
 
 ## Screenshots
 ### Homescreen
-<img width="647" height="631" alt="Screenshot_20260527_225547" src="https://github.com/user-attachments/assets/a9ecbbbb-4295-4116-9730-1960386968a7" />
+<img width="651" height="633" alt="image" src="https://github.com/user-attachments/assets/db8931d1-99d8-44c2-a243-9ea21d4eb6b1" />
+
 
 ### Encode Image - Screen
-<img width="642" height="644" alt="Screenshot_20260527_225613" src="https://github.com/user-attachments/assets/b35d563f-dc53-4e8f-b3f5-56622eeb09d6" />
+<img width="651" height="649" alt="image" src="https://github.com/user-attachments/assets/13c43868-6802-48ce-bb8b-ef4117eab594" />
+
 
 ### Decode Image - Screen
-<img width="702" height="627" alt="Screenshot_20260527_225624" src="https://github.com/user-attachments/assets/a6194f9b-bcd4-4a3d-9f5a-499c91b977b8" />
+<img width="693" height="625" alt="image" src="https://github.com/user-attachments/assets/bd293602-50e0-4719-925b-111a83221ee0" />
 
 
 ---
