@@ -862,16 +862,8 @@ class StegoApp:
         kb.grid(row=7, column=0, columnspan=3, sticky="w", pady=(2, 8))
         SmallBtn(kb, "⧉ COPY KEY",
                  command=self._copy_key, accent=ACCENT3).pack(side="left", padx=(0,6))
-        SmallBtn(kb, "↗ SHARE KEY",
-                 command=self._share_key, accent=ACCENT3).pack(side="left", padx=(0,6))
         SmallBtn(kb, "💾 SAVE KEY AS TXT",
                  command=self._save_key_txt, accent=WARN_FG).pack(side="left")
-
-        # Image share button
-        ib = tk.Frame(body, bg=BG)
-        ib.grid(row=8, column=0, columnspan=3, sticky="w", pady=(0, 4))
-        SmallBtn(ib, "↗ SHARE IMAGE",
-                 command=self._share_image, accent=ACCENT).pack(side="left")
 
         body.columnconfigure(0, weight=1)
         return outer
